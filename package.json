@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/react-ui-primitives",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Lightweight React UI primitives - Button, Alert, and more",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -53,8 +53,12 @@
     "url": "git+https://github.com/philiprehberger/ts-react-ui-primitives.git"
   },
   "homepage": "https://github.com/philiprehberger/ts-react-ui-primitives#readme",
-  "bugs": { "url": "https://github.com/philiprehberger/ts-react-ui-primitives/issues" },
+  "bugs": {
+    "url": "https://github.com/philiprehberger/ts-react-ui-primitives/issues"
+  },
   "author": "Philip Rehberger",
-  "engines": { "node": ">=18.0.0" },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "sideEffects": false
 }
