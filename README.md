@@ -1,5 +1,9 @@
 # @philiprehberger/react-ui-primitives
 
+[![CI](https://github.com/philiprehberger/react-ui-primitives/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/react-ui-primitives/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/react-ui-primitives.svg)](https://www.npmjs.com/package/@philiprehberger/react-ui-primitives)
+[![License](https://img.shields.io/github/license/philiprehberger/react-ui-primitives)](LICENSE)
+
 Lightweight React UI primitives with Tailwind CSS styling.
 
 ## Installation
