@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/react-ui-primitives.svg)](https://www.npmjs.com/package/@philiprehberger/react-ui-primitives)
 [![License](https://img.shields.io/github/license/philiprehberger/react-ui-primitives)](LICENSE)
 
-Lightweight React UI primitives with Tailwind CSS styling.
+Lightweight React UI primitives with Tailwind CSS styling
 
 ## Installation
 
@@ -12,7 +12,7 @@ Lightweight React UI primitives with Tailwind CSS styling.
 npm install @philiprehberger/react-ui-primitives clsx
 ```
 
-## Components
+## Usage
 
 ### `Button`
 
@@ -40,6 +40,16 @@ import { Alert } from '@philiprehberger/react-ui-primitives';
 
 Types: `error`, `success`, `warning`, `info`
 
+## API
+
+| Export | Type | Description |
+|--------|------|-------------|
+| `Button` | Component | Multi-variant button with loading state and hover text |
+| `Alert` | Component | Alert banner with type-based styling and optional action button |
+| `ButtonProps` | Type | Props: `variant?`, `loading?`, `hoverText?`, plus native button attrs |
+| `ButtonVariant` | Type | `'primary' \| 'success' \| 'danger' \| 'secondary'` |
+| `AlertProps` | Type | Props: `type`, `message`, `onAction?`, `actionText?`, `className?` |
+| `AlertType` | Type | `'error' \| 'success' \| 'warning' \| 'info'` |
 
 ## Development
 
